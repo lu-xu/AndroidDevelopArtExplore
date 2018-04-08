@@ -10,6 +10,8 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        buildConfigField "String", "TINKER_ID", "AndroidDevelopArtExplore_V1"
     }
     buildTypes {
         release {
@@ -17,7 +19,13 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+
 }
+def getTinkerIdValue() {
+    return hasProperty("TINKER_ID") ? TINKER_ID : "AndroidDevelopArtExplore_V1"
+}
+
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
