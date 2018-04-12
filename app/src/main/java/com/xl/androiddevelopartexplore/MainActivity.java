@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        Log.i(TAG, "onCreate: current pid ==.............>> " + android.os.Process.myPid());
+        Log.i(TAG, "这里是develop 的本地分支 " + android.os.Process.myPid());
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
