@@ -22,6 +22,7 @@ import com.xl.androiddevelopartexplore.ipc.MessengerActivity;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     private static final String TAG = "MainActivity";
+//develop remote 999
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
