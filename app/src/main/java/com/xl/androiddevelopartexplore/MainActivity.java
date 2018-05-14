@@ -22,7 +22,7 @@ import com.xl.androiddevelopartexplore.ipc.MessengerActivity;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     private static final String TAG = "MainActivity";
-
+//这里是master-local分支
 
 
 
