@@ -22,9 +22,20 @@ import com.xl.androiddevelopartexplore.ipc.MessengerActivity;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     private static final String TAG = "MainActivity";
+
 //develop 999
 //develop remote 999
 //develop local 999
+
+//这里是master-local分支
+//这里是master-local分支333
+//这里是master-local分支555
+//这里是master-local分支666
+//这里是master-local分支888
+
+
+//这里是master-local分支777
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +44,11 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+
         Log.i(TAG, "这里是develop 的本地分支 " + android.os.Process.myPid());
+
+        Log.i(TAG, "这里是master " + android.os.Process.myPid());
+
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
